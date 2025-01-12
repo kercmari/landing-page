@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page con Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <button class="search-button header-search">
+            <i class="fas fa-search" style="color:white"></i>
+        </button>
+        <div class="logo">
+            <h1>UNIQLUXURY</h1>
+        </div>
+        <div class="nav-right">
+
+            <div class="auth-links">
+                <a href="#">LOG IN</a>
+                <div class="separator"></div>
+                <a href="#">SING UP</a>
+            </div>
+            <div class="language-selector">
+                <ul class="language-list">
+                    <li class="language-item" data-value="es">ESP</li>
+                    <li class="language-item selected" data-value="en">ENG</li>
+                </ul>
+            </div>
+            <div class="toggle-contenedor">
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carousel de Imágenes -->
+    <section class="principal">
+        <div class="content-principal">
+
+            <div class="search-container">
+                <input type="search" placeholder="Ex. Villa Budapest">
+                <button class="search-button show-search">
+                    <i class="fas fa-search" style="color:white"></i>
+                </button>
+            </div>
+            <div class="elements-content">
+
+                <div class="social-icons">
+                    <span class="social-text">FOLLOW</span>
+                    <div class="dividir"></div>
+                    <div class="icons-container">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="hero-content">
+                    <i class="fas fa-arrow-right btn-arrow" style="margin:7px;"></i>
+
+                    <h3>Luxury</h3>
+                    <h1 style="font-size: 3rem;">Real Estate</h1>
+                    <button class="view-all"> <i class="fas fa-arrow-right btn-arrow-view" style="margin:7px;"></i> View
+                        All
+                        Properties</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="carousel">
+            <input type="radio" name="carousel" id="carousel-1" checked>
+            <input type="radio" name="carousel" id="carousel-2">
+            <input type="radio" name="carousel" id="carousel-3">
+
+            <div class="carousel-images">
+                <div class="carousel-image" id="image-1">
+                    <img src="images/banner2.png"
+                        alt="Casa vacacional con puertas de vidrio y 4 ventanales con sillas en la parte frontal">
+                </div>
+                <div class="carousel-image" id="image-2">
+                    <img src="images/dev4.jpg" alt="Sala con mesa de centro y muebles">
+                </div>
+                <div class="carousel-image" id="image-3">
+                    <img src="images/dev5.jpg" alt="Parte trasera con pasillo tipo puente para conectar dos entradas">
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <label for="carousel-1"></label>
+                <label for="carousel-2"></label>
+                <label for="carousel-3"></label>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Primera Sección -->
+    <section class="section section-1">
+        <div class="subtitle left-position">
+            <i class="fas fa-arrow-right btn-arrow" style="margin:7px;color: #DF991B;"></i>
+            <h4>View all properties</h4>
+        </div>
+        <div class="row">
+
+            <div class="card-container left-over">
+
+                <div class="card partially-visible">
+                    <img src="images/Mask group-10.jpg" alt="Paisaje">
+                    <div class="card-overlay text-position">
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Mask group-11.jpg" alt="Paisaje">
+                    <div class="card-overlay transparent">
+                        <h3>England</h3>
+                        <h1>Glasgow</h1>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Mask group-9.jpg" alt="Paisaje">
+                    <div class="card-overlay white">
+                        <div class="frame-icon">
+                            <img src="images/iglesia.svg" alt="" class="flag-icon">
+                            <h3>France</h3>
+                        </div>
+                        <h1>Marseilles</h1>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="title-container">
+
+                <div class="subtitle rigth-position">
+                    <h4>Worldwide gallery</h4>
+                </div>
+                <div class="main-title">
+                    <h2>Properties for sale</h2>
+                </div>
+                <div class="inter-empty">
+
+                </div>
+                <div class="nav-container">
+                    <button class="nav-btn prev">
+                        <i class="fas fa-chevron-left"></i> Prev
+                    </button>
+                    <button class="view-more">
+                        View All Property
+                    </button>
+                    <button class="nav-btn next">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row house-section">
+            <div class="title-container">
+                <div class="subtitle rigth-position">
+                    <h4>Worldwide gallery</h4>
+                </div>
+                <div class="main-title">
+                    <h2>Properties for sale</h2>
+                </div>
+                <div class="inter-empty">
+                    <p>In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to
+                        knowledgeably advise you
+                        at every stage of the property cycle.</p>
+                </div>
+                <div class="nav-container">
+                    <button class="nav-btn prev">
+                        <i class="fas fa-chevron-left"></i> Prev
+                    </button>
+                    <button class="view-more">
+                        View All Property
+                    </button>
+                    <button class="nav-btn next">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card-container right-over">
+                <div class="card">
+                    <img src="images/rent1.jpg" alt="Paisaje">
+                    <div class="card-overlay white">
+                        <div class="frame-icon">
+
+                            <h3>France</h3>
+                        </div>
+                        <h1>Marseilles</h1>
+                    </div>
+                </div>
+                <div class="card partially-visible">
+                    <img src="images/rent2.jpg" alt="Paisaje">
+                    <div class="card-overlay text-position">
+                        <h3>Germany</h3>
+                        <h1>Munich</h1>
+                    </div>
+                </div>
+                <div class="card partially-visible">
+                    <img src="images/Mask group.jpg" alt="Paisaje">
+                    <div class="card-overlay text-position">
+                        <h3>Fran</h3>
+                        <h1>Clo</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda Sección -->
+    <section class="section section-2">
+        <div class="subtitle text-center">
+            <h4>Worldwide gallery</h4>
+        </div>
+        <div class="main-title">
+            <h2>Developments</h2>
+        </div>
+        <div class="grid-container">
+            <div class="card h270">
+                <img src="images/Mask group-5.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>The Surf Row</h3>
+                    </div>
+                    <h1>Surfside</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-7.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>Indigo</h3>
+                    </div>
+                    <h1>Vero Beach</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-6.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>Rosewood - Baha Mar</h3>
+                    </div>
+                    <h1>Nassau, the Bahamas</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/TheAstor.png" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>St. Regis - The Astor Tower</h3>
+                    </div>
+                    <h1>Brickell, Miami</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-4.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>Giralda Place</h3>
+                    </div>
+                    <h1>Coral Gables</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-3.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>St. Regis - The William Tower</h3>
+                    </div>
+                    <h1>Brickell, Miami</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-2.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>Solterre at Cockleshell Bay</h3>
+                    </div>
+                    <h1>St. Kitts and nevis</h1>
+                </div>
+            </div>
+            <div class="card h270">
+                <img src="images/Mask group-1.jpg" alt="Paisaje">
+                <div class="card-overlay white">
+                    <div class="frame-icon">
+                        <h3>Urbin</h3>
+                    </div>
+                    <h1>Coconut Grove</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Contact Form Section -->
+    <div class="container">
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="contact-form-floating">
+                <div class="footer-column  wd-40">
+                    <div class="subtitle text-left">
+                        <h4>Join the list</h4>
+                    </div>
+                    <div class="main-title ">
+                        <h2 class="white-color">Unlock</h2>
+                        <h2 class="white-color"> the exclusive world</h2>
+                    </div>
+                </div>
+                <div class="footer-column wd-40">
+                    <span class="white-color">Name:</span>
+                    <input type="text" placeholder="Enter your email to join our newsletter">
+                    <div class="right-position">
+                        <button class="view-all btn-orange wd-60 ">Subscribe</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer-content">
+                <p class="pais"> Canada</p>
+                <div class="footer-column">
+
+                    <p>Become a New Uniq Artist</p>
+                    <p>Become a Commercial Partner</p>
+                </div>
+                <div class="footer-row">
+
+                    <div class="footer-column margin-bottom-1 ">
+                        <span>Suites</span>
+                        <span>Cities</span>
+                        <span>Villas</span>
+
+                    </div>
+
+                    <div class="footer-column ">
+                        <span class="white-color">Houses</span>
+                        <span>Apartamentss</span>
+                        <span class="margin-top-1">Contact us</span>
+                    </div>
+                </div>
+                <div class="footer-column wd-80">
+                    <div class="right-position font-size-10">
+                        <p>Call Center</p>
+                    </div>
+                    <h1>+52 55 6840 4000</h1>
+                    <p class="font-size-13">concierge@uniqluxury.com</p>
+
+                </div>
+            </div>
+            <div class="text-center margin-top-1 ">
+                <p>&copy; Copyright © 2022</p>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -732,7 +732,7 @@ body {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     .card-container {
         grid-template-columns: repeat(3, 300px);
     }
